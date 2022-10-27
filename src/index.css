@@ -16,3 +16,7 @@ body {
   width: 10%;
   border-radius: 50%;
 }
+
+#slack {
+  display: none;
+}
