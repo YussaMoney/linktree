@@ -1,3 +1,4 @@
+import Foot from "./Foot.js";
 import Links from "./Links.js";
 import Profile from "./Profile.js";
 
@@ -10,6 +11,9 @@ function App() {
         </section>
         <section className="links-section">
           <Links />
+        </section>
+        <section className="foot-section">
+          <Foot />
         </section>
       </main>
     </div>
