@@ -11,3 +11,8 @@
 body {
   font-family: sans-serif;
 }
+
+#profile-img img {
+  width: 10%;
+  border-radius: 50%;
+}
