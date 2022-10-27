@@ -1,3 +1,6 @@
+import slack from './img/slack-icon.jpg'
+import github from './img/github-icon.png'
+
 export default function Links() {
   return (
     <div className="links">
@@ -31,6 +34,10 @@ export default function Links() {
           Design Books
         </button>
       </a>
+      <div className="social-icon">
+        <img src={slack} alt="slack-icon" id="slack-icon" />
+        <img src={github} alt="github-icon" id="github-icon" />
+      </div>
     </div>
   )
 }
