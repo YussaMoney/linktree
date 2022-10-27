@@ -6,6 +6,12 @@ export default function Profile() {
       <div id="profile-img">
         <img src={profileImg} alt="profile-img" />
       </div>
+      <p id="twitter">
+        YussaMoney
+      </p>
+      <p id="slack">
+        Yussassiph
+      </p>
     </div>
   )
 }
