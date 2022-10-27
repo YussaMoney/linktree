@@ -20,3 +20,7 @@ body {
 #slack {
   display: none;
 }
+
+.social-icon img {
+  width: 4%;
+}
