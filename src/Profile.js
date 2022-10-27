@@ -7,7 +7,7 @@ export default function Profile() {
         <img src={profileImg} alt="profile-img" />
       </div>
       <p id="twitter">
-        YussaMoney
+        Yusuf Azeez
       </p>
       <p id="slack">
         Yussassiph
