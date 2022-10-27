@@ -1,3 +1,4 @@
+import Links from "./Links.js";
 import Profile from "./Profile.js";
 
 function App() {
@@ -6,6 +7,9 @@ function App() {
       <main className="app-main">
         <section className="profile-section">
           <Profile />
+        </section>
+        <section className="links-section">
+          <Links />
         </section>
       </main>
     </div>
