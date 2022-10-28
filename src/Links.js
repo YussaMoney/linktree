@@ -4,40 +4,29 @@ import github from './img/github-icon.png'
 export default function Links() {
   return (
     <div className="links">
-      <a href="https://twitter.com/YussaMoney">
-        <button id="twitter-link">
-          Twitter Link
-        </button>
+      <a href="https://twitter.com/YussaMoney" id="twitter_link">
+        Twitter Link
       </a><br />
-      <a href="https://training.zuri.team/">
-        <button id="btn-zuri">
-          Zuri Team
-        </button>
+      <a href="https://training.zuri.team/" id="btn_zuri">
+        Zuri Team
       </a><br />
-      <a href="http://books.zuri.team">
-        <button id="books">
-          Zuri Books
-        </button>
+      <a href="http://books.zuri.team" id="books">
+        Zuri Books
       </a><br />
-      <a href="https://books.zuri.team/python-for-beginners?ref_id=Yussassiph">
-        <button id="book-python">
-          Python Books
-        </button>
+      <a href="https://books.zuri.team/python-for-beginners?ref_id=Yussassiph" id="book_python">
+        Python Books
       </a><br />
-      <a href="https://background.zuri.team">
-        <button id="pitch">
-          Background Check for Coders
-        </button>
+      <a href="https://background.zuri.team" id="pitch">
+        Background Check for Coders
       </a><br />
-      <a href="https://books.zuri.team/design-rules ">
-        <button id="book-design">
-          Design Books
-        </button>
+      <a href="https://books.zuri.team/design-rules" id="book_design">
+        Design Books
       </a>
       <div className="social-icon">
         <img src={slack} alt="slack-icon" id="slack-icon" />
         <img src={github} alt="github-icon" id="github-icon" />
       </div>
+      <hr />
     </div>
   )
 }
