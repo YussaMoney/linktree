@@ -60,21 +60,32 @@ body {
   flex-direction: column;
   background-color: lightgray;
   border-radius: 10px;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
 }
 
-#twitter_link,
-#btn_zuri {
-  padding: 1.219rem 0;
+.social-icon img:hover,
+.links a:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.08);
 }
 
-.links a span {
-  margin-bottom: 0.5rem;
-}
+/* .links a span:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.4);
+} */
 
 .social-icon img {
   width: 5%;
   margin: 0 0.5rem;
+}
+
+.social-icon a {
+  display: inline;
+  background-color: inherit;
+  border-radius: 0;
+  padding: 0
 }
 
 .foot-body {
