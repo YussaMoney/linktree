@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Linktree
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a customizable webpage that houses all the important links that you want to share with your audience. It's built with `react` and `create-react-app`.
 
-## Available Scripts
+![linktree](./src/img/linktree.png)
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- React/Redux
+- CSS
+- Create-react-app
+- npm
+- ES6
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple example steps.
 
-### `npm test`
+- On the project GitHub page, navigate to the main page of the repository [this page](https://github.com/YussaMoney/linktree.git).
+- Under the repository name, locate and click on a green button named `Code`.
+- Copy the project URL as displayed.
+- If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal.
+- Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
+- Type `git clone`, and then paste the URL you copied in Step 3.<br>
+  `$ git clone https://github.com/YussaMoney/linktree.git`
+- Press Enter. Your local copy will be created.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `npm run build`
+[Click here](https://yussamoney.github.io/Weather-App)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+- Web browser(chrome)
+- [Node](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/get-npm)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
+👤 **Azeez Yusuf O.**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Github: [@YussaMoney](https://github.com/YussaMoney)
+- Twitter: [@YussaMoney](https://twitter.com/YussaMoney)
+- Linkedin: [@YussaMoney](https://www.linkedin.com/in/yussamoney)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions, issues and feature requests are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Show your support
 
-## Learn More
+Give a ⭐️if you like this project!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgement
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Teekaytech](https://github.com/Teekaytech)
+- [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js)
+- [Microverse](https://github.com/microverseinc/linters-config/tree/master/react-redux)
+- [Zuri Team](https://training.zuri.team/)
