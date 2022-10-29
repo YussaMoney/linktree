@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Click here](https://yussamoney.github.io/Weather-App)
+[Click here](https://)
 
 ## Prerequisites
 
@@ -35,6 +35,11 @@ To get a local copy up and running follow these simple example steps.
 - Web browser(chrome)
 - [Node](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/get-npm)
+
+### Making Changes
+
+- `npm install` to install the dependencies and packages
+- `npm start` to test the app after changes were made
 
 ## Author
 
