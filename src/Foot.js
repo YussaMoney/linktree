@@ -1,5 +1,5 @@
-import internship from './img/zuri.png'
-import ingressive from './img/zuri-ingressive-img.png'
+import internship from './img/zuri.png';
+import ingressive from './img/zuri-ingressive-img.png';
 
 export default function Foot() {
   return (
@@ -11,5 +11,5 @@ export default function Foot() {
         <img src={ingressive} alt="Inngressive" id="zuri-ingressive" />
       </div>
     </div>
-  )
+  );
 }

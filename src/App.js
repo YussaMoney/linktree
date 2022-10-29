@@ -1,6 +1,6 @@
-import Foot from "./Foot.js";
-import Links from "./Links.js";
-import Profile from "./Profile.js";
+import Foot from './Foot';
+import Links from './Links';
+import Profile from './Profile';
 
 function App() {
   return (

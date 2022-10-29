@@ -65,27 +65,22 @@ body {
   font-size: 1.2rem;
 }
 
-.social-icon img:hover,
-.links a:hover {
-  transition: 0.5s ease-in-out;
-  transform: scale(1.08);
+.social-icon a {
+  display: inline;
+  background-color: inherit;
+  border-radius: 0;
+  padding: 0;
 }
-
-/* .links a span:hover {
-  transition: 0.5s ease-in-out;
-  transform: scale(1.4);
-} */
 
 .social-icon img {
   width: 5%;
   margin: 0 0.5rem;
 }
 
-.social-icon a {
-  display: inline;
-  background-color: inherit;
-  border-radius: 0;
-  padding: 0
+.social-icon img:hover,
+.links a:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.08);
 }
 
 .foot-body {
@@ -109,9 +104,10 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  #profile_img{
+  #profile_img {
     width: 30%;
   }
+
   .triple-dot {
     display: block;
     width: 9%;
@@ -140,7 +136,7 @@ body {
     font-size: 0.8rem;
     margin: 0.6rem 0;
   }
-  
+
   .foot #zuri-ingressive {
     width: 30%;
   }
