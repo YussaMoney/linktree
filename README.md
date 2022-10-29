@@ -11,6 +11,7 @@ This is a customizable webpage that houses all the important links that you want
 - Create-react-app
 - npm
 - ES6
+- gh-pages
 
 ## Getting Started
 
@@ -27,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Click here](https://)
+[Click here](https://yussamoney.github.io/linktree)
 
 ## Prerequisites
 
