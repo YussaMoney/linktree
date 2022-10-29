@@ -12,7 +12,7 @@ body {
   padding: 4% 8%;
 }
 
-#profile_img {
+#profile__img {
   width: 9%;
   border-radius: 50%;
 }
@@ -77,10 +77,11 @@ body {
   margin: 0 0.5rem;
 }
 
+#profile__img:hover,
 .social-icon img:hover,
 .links a:hover {
   transition: 0.5s ease-in-out;
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 .foot-body {
@@ -89,22 +90,22 @@ body {
   margin: 1rem 0;
 }
 
-.foot #zuri-img {
+.foot #zuri__img {
   width: 15%;
 }
 
-.foot #zuri-ingressive {
+.foot #zuri__ingressive {
   width: 12%;
 }
 
-#hng-text {
+#hng__text {
   color: rgb(182, 182, 182);
   font-size: 15px;
   align-items: center;
 }
 
 @media screen and (max-width: 500px) {
-  #profile_img {
+  #profile__img {
     width: 30%;
   }
 
@@ -128,16 +129,16 @@ body {
     width: 12%;
   }
 
-  .foot #zuri-img {
+  .foot #zuri__img {
     width: 35%;
   }
 
-  #hng-text {
+  #hng__text {
     font-size: 0.8rem;
     margin: 0.6rem 0;
   }
 
-  .foot #zuri-ingressive {
+  .foot #zuri__ingressive {
     width: 30%;
   }
 
