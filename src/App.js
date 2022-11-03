@@ -1,22 +1,13 @@
-import Foot from './Foot';
-import Links from './Links';
-import Profile from './Profile';
+import { Routes, Route } from 'react-router-dom';
+import Contact from './Contact';
+import Content from './Content';
 
 function App() {
   return (
-    <div className="app">
-      <main className="app-main">
-        <section className="profile-section">
-          <Profile />
-        </section>
-        <section className="links-section">
-          <Links />
-        </section>
-        <section className="foot-section">
-          <Foot />
-        </section>
-      </main>
-    </div>
+    <Routes>
+      <Route path="/" element={<Content />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 }
 
