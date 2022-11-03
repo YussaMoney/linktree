@@ -1,3 +1,4 @@
+// import { Link } from 'react-router-dom';
 import slack from './img/slack-icon.jpg';
 import github from './img/github-icon.png';
 
@@ -37,6 +38,12 @@ export default function Links() {
 
       <a href="https://books.zuri.team/design-rules" id="book__design">
         Design Books
+      </a>
+      <br />
+      <br />
+
+      <a href="/contact" id="contact">
+        Contact Me
       </a>
       <br />
       <br />
