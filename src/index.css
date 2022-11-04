@@ -108,7 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   color: black;
-  padding: 2% 5%;
+  padding: 2% 15%;
 }
 
 form {
@@ -135,7 +135,7 @@ form textarea {
 
 input:focus,
 textarea:focus {
-  border: 1px solid #afd6f8;
+  border: 1px solid #5cb2fd;
 }
 
 form #check {
@@ -148,24 +148,34 @@ form input#check {
   margin-right: 0.5rem;
 }
 
-
 form #name {
   display: flex;
   width: 100%;
-}
-
-form label {
-
 }
 
 form label#last_name {
   margin-left: 1.5rem;
 }
 
-
 #first_name,
 #last_name {
   width: 100%;
+}
+
+form button {
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  background-color: #0088ff;
+  outline: none;
+  border: none;
+  font-size: 110%;
+}
+
+form button:hover {
+  background-color: #5cb2fd;
 }
 
 @media screen and (max-width: 500px) {
