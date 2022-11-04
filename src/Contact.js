@@ -8,29 +8,30 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <h1 className="title">{contact.title}</h1>
-      <p className="titleFoot">{contact.titleFoot}</p>
+      <h1>{contact.title}</h1>
+      <p>{contact.titleFoot}</p>
 
-      <form action="/" method="post">
-        <label htmlFor="first_name" id="first_name">
-          First name
-          <input
-            type="text"
-            id="first_name"
-            placeholder="Enter your first name"
-            required
-          />
-        </label>
-
-        <label htmlFor="last_name" id="last_name">
-          Last name
-          <input
-            type="text"
-            id="last_name"
-            placeholder="Enter your last name"
-            required
-          />
-        </label>
+      <form action="/linktree" method="post">
+        <div id="name">
+          <label htmlFor="first_name" id="first_name">
+            First name
+            <input
+              type="text"
+              id="first_name"
+              placeholder="Enter your first name"
+              required
+            />
+          </label>
+          <label htmlFor="last_name" id="last_name">
+            Last name
+            <input
+              type="text"
+              id="last_name"
+              placeholder="Enter your last name"
+              required
+            />
+          </label>
+        </div>
 
         <label htmlFor="email" id="email">
           Email
@@ -47,16 +48,19 @@ export default function Contact() {
           <textarea
             name="message"
             id="message"
+            cols="30"
+            rows="10"
             placeholder="Send me a message and I'll reply you as soon as possible..."
             required
           />
         </label>
 
-        <label htmlFor="confirm" id="confirm">
+        <label htmlFor="check" id="check">
           <input
             type="checkbox"
-            name="confirm"
-            id="confirm"
+            name="check"
+            id="check"
+            required
           />
           {contact.checkMessage}
         </label>
