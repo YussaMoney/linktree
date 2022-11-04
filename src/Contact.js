@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 export default function Contact() {
   const name = 'Yussassiph';
   const contact = {
@@ -6,12 +8,18 @@ export default function Contact() {
     checkMessage: `You agree to providing your data to ${name} who may contact you.`,
   };
 
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  // const [error, setError] = useState('');
+
   return (
     <div className="contact">
       <h1>{contact.title}</h1>
       <p>{contact.titleFoot}</p>
 
-      <form action="/linktree" method="post">
+      <form action="/" method="post">
         <div id="name">
           <label htmlFor="first_name" id="first_name">
             First name
@@ -19,6 +27,8 @@ export default function Contact() {
               type="text"
               id="first_name"
               placeholder="Enter your first name"
+              value={firstName}
+              onChange={(e) => setFirstName(e.target.value)}
             />
           </label>
           <label htmlFor="last_name" id="last_name">
@@ -27,6 +37,8 @@ export default function Contact() {
               type="text"
               id="last_name"
               placeholder="Enter your last name"
+              value={lastName}
+              onChange={(e) => setLastName(e.target.value)}
             />
           </label>
         </div>
@@ -37,6 +49,8 @@ export default function Contact() {
             type="text"
             id="email"
             placeholder="yourname@email.com"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
         </label>
 
@@ -47,6 +61,8 @@ export default function Contact() {
             id="message"
             cols="30"
             rows="10"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             placeholder="Send me a message and I'll reply you as soon as possible..."
           />
         </label>
