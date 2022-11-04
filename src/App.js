@@ -5,7 +5,7 @@ import Content from './Content';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Content />} />
+      <Route path="/linktree" element={<Content />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   );
