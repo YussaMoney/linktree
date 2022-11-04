@@ -19,7 +19,6 @@ export default function Contact() {
               type="text"
               id="first_name"
               placeholder="Enter your first name"
-              required
             />
           </label>
           <label htmlFor="last_name" id="last_name">
@@ -28,7 +27,6 @@ export default function Contact() {
               type="text"
               id="last_name"
               placeholder="Enter your last name"
-              required
             />
           </label>
         </div>
@@ -39,7 +37,6 @@ export default function Contact() {
             type="text"
             id="email"
             placeholder="yourname@email.com"
-            required
           />
         </label>
 
@@ -51,7 +48,6 @@ export default function Contact() {
             cols="30"
             rows="10"
             placeholder="Send me a message and I'll reply you as soon as possible..."
-            required
           />
         </label>
 
@@ -60,7 +56,6 @@ export default function Contact() {
             type="checkbox"
             name="check"
             id="check"
-            required
           />
           {contact.checkMessage}
         </label>
