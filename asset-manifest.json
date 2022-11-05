@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/linktree/static/css/main.42acfd4f.css",
-    "main.js": "/linktree/static/js/main.a0fa1451.js",
+    "main.css": "/linktree/static/css/main.fd39d257.css",
+    "main.js": "/linktree/static/js/main.73e38693.js",
     "static/media/profile-img.jpg": "/linktree/static/media/profile-img.7706a72f2aab8ca897a8.jpg",
     "static/media/zuri-ingressive-img.png": "/linktree/static/media/zuri-ingressive-img.8cde01edc439e1ee599b.png",
     "index.html": "/linktree/index.html",
-    "main.42acfd4f.css.map": "/linktree/static/css/main.42acfd4f.css.map",
-    "main.a0fa1451.js.map": "/linktree/static/js/main.a0fa1451.js.map"
+    "main.fd39d257.css.map": "/linktree/static/css/main.fd39d257.css.map",
+    "main.73e38693.js.map": "/linktree/static/js/main.73e38693.js.map"
   },
   "entrypoints": [
-    "static/css/main.42acfd4f.css",
-    "static/js/main.a0fa1451.js"
+    "static/css/main.fd39d257.css",
+    "static/js/main.73e38693.js"
   ]
 }
