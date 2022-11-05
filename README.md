@@ -11,7 +11,7 @@ This is a customizable webpage that houses all the important links that you want
 - Create-react-app
 - npm
 - ES6
-- gh-pages
+- vercel
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Click here](https://yussamoney.github.io/linktree)
+[Click here](https://linktree-c0xa9h5ne-yussamoney.vercel.app/)
 
 ## Prerequisites
 
