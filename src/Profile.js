@@ -6,8 +6,8 @@ export default function Profile() {
   return (
     <div className="profile">
       <img src={profileImg} alt="profile-img" id="profile__img" />
-      <a href="linktree"><img src={arrow} alt="arrow" className="arrow" /></a>
-      <a href="linktree"><img src={tripleDot} alt="arrow" className="triple-dot" /></a>
+      <a href="/"><img src={arrow} alt="arrow" className="arrow" /></a>
+      <a href="/"><img src={tripleDot} alt="arrow" className="triple-dot" /></a>
       <h2 id="twitter">
         Yusuf Azeez
       </h2>
