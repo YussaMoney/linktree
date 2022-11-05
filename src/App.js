@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <Routes>
-        <Route path="/" element={<Content />} />
+        <Route path="/linktree" element={<Content />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <section className="foot-section">
