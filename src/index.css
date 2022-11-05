@@ -126,7 +126,6 @@ form textarea {
 form input,
 form textarea {
   width: 100%;
-  margin-bottom: 1rem;
   padding: 0.5rem;
   border: 1px solid lightgray;
   border-radius: 5px;
@@ -142,6 +141,10 @@ form #check {
   width: fit-content;
   display: flex;
   font-size: 0.9rem;
+}
+
+form input#check {
+  cursor: pointer;
 }
 
 form input#check {
@@ -176,6 +179,25 @@ form button {
 
 form button:hover {
   background-color: #5cb2fd;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  padding-top: 0.1rem;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+#notify-text {
+  display: none;
+  color: green;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: -0.5rem 0 1rem;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 500px) {
