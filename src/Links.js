@@ -42,7 +42,7 @@ export default function Links() {
       <br />
       <br />
 
-      <a href="/contact" id="contact">
+      <a href="/linktree/contact" id="contact">
         Contact Me
       </a>
       <br />

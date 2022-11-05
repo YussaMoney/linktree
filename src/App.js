@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <Routes>
         <Route path="/linktree" element={<Content />} />
-        <Route path="linktree/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <section className="foot-section">
         <Foot />
