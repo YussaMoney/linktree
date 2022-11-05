@@ -218,6 +218,7 @@ form button:hover {
 
 #check input:checked {
   border: 1px solid #1570ef;
+  box-shadow: 1px 1px 9px #2699fd;
 }
 
 #check input::before {
