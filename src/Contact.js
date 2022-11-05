@@ -40,7 +40,6 @@ export default function Contact() {
     } else {
       textArea.classList.remove('red-border');
     }
-    const notifyText = document.querySelector('#notify-text');
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (!values.first_name) {
@@ -59,6 +58,8 @@ export default function Contact() {
     } else if (!regex.test(values.email)) {
       errors.email = 'Email address is invalid!';
     }
+
+    const notifyText = document.querySelector('#notify-text');
     if (values.message.length > 5 && values.first_name !== '' && values.last_name !== '' && values.email !== '') {
       notifyText.style.display = 'block';
       values.message = '';
