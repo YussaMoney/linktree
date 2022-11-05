@@ -144,10 +144,6 @@ form #check {
 }
 
 form input#check {
-  cursor: pointer;
-}
-
-form input#check {
   margin-right: 0.5rem;
 }
 
@@ -199,6 +195,45 @@ form button:hover {
   margin: -0.5rem 0 1rem;
   font-weight: bolder;
 }
+
+#check input {
+  margin: 0px;
+  background-color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: currentColor;
+  width: 1.1em;
+  height: 1.1em;
+  border: 1px solid #d0d5dd;
+  border-radius: 0.3em;
+  transform: translateY(-0.075em);
+  display: grid;
+  cursor: pointer;
+  position: relative;
+  place-content: center;
+}
+
+#check input:checked {
+  border: 1px solid #1570ef;
+}
+
+#check input::before {
+  content: '✓';
+  color: #1570ef;
+  position: absolute;
+  bottom: -2px;
+  left: 2px;
+  transform: scale(0);
+  transform-origin: bottom left;
+}
+
+#check input:checked::before {
+  transform: scale(0.956);
+}
+
 
 @media screen and (max-width: 500px) {
   #profile__img {
