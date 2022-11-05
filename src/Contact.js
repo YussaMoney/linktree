@@ -68,7 +68,7 @@ export default function Contact() {
       values.last_name = '';
       setTimeout(() => {
         notifyText.style.display = 'none';
-        navigate('/linktree');
+        navigate('/');
       }, 1500);
     }
     return errors;
